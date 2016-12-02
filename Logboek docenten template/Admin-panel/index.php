@@ -1,6 +1,7 @@
 <?php include 'includes/header.php'; ?>
 <body>
 <?php include 'includes/menu.php'; ?>
+<!-- De vakken -->
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="panel panel-default">
@@ -14,6 +15,61 @@
 			</div>
 		</div><!--/.row-->
 
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="panel panel-blue panel-widget ">
+                    <div class="row no-padding">
+                        <div class="col-sm-3 col-lg-5 widget-left">
+                            <svg class="glyph stroked bag"><use xlink:href="#stroked-bag"></use></svg>
+                        </div>
+                        <div class="col-sm-9 col-lg-7 widget-right">
+                            <div class="large">Java</div>
+                            <div class="text-muted">Java logboeken</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="panel panel-orange panel-widget">
+                    <div class="row no-padding">
+                        <div class="col-sm-3 col-lg-5 widget-left">
+                            <svg class="glyph stroked empty-message"><use xlink:href="#stroked-empty-message"></use></svg>
+                        </div>
+                        <div class="col-sm-9 col-lg-7 widget-right">
+                            <div class="large">Vak 2</div>
+                            <div class="text-muted">Vak 2, van de docent</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="panel panel-teal panel-widget">
+                    <div class="row no-padding">
+                        <div class="col-sm-3 col-lg-5 widget-left">
+                            <svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg>
+                        </div>
+                        <div class="col-sm-9 col-lg-7 widget-right">
+                            <div class="large">Vak 3</div>
+                            <div class="text-muted">Vak 3 van de docent</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="panel panel-red panel-widget">
+                    <div class="row no-padding">
+                        <div class="col-sm-3 col-lg-5 widget-left">
+                            <svg class="glyph stroked app-window-with-content"><use xlink:href="#stroked-app-window-with-content"></use></svg>
+                        </div>
+                        <div class="col-sm-9 col-lg-7 widget-right">
+                            <div class="large">Vak 4</div>
+                            <div class="text-muted">Vak 4 van de docent</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.row-->
+        <!-- De klassen -->
 		<div class="row">
 			<div class="col-xs-12 col-md-6 col-lg-3">
 				<div class="panel panel-blue panel-widget ">
@@ -22,8 +78,8 @@
 							<svg class="glyph stroked bag"><use xlink:href="#stroked-bag"></use></svg>
 						</div>
 						<div class="col-sm-9 col-lg-7 widget-right">
-							<div class="large">Java</div>
-							<div class="text-muted">Java logboeken</div>
+							<div class="large">Klas 1</div>
+							<div class="text-muted">Klas AO 1.</div>
 						</div>
 					</div>
 				</div>
@@ -35,8 +91,8 @@
 							<svg class="glyph stroked empty-message"><use xlink:href="#stroked-empty-message"></use></svg>
 						</div>
 						<div class="col-sm-9 col-lg-7 widget-right">
-							<div class="large">Vak 2</div>
-							<div class="text-muted">Vak 2, van de docent</div>
+							<div class="large">Klas 2</div>
+							<div class="text-muted">Klas AO 2</div>
 						</div>
 					</div>
 				</div>
@@ -48,8 +104,8 @@
 							<svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg>
 						</div>
 						<div class="col-sm-9 col-lg-7 widget-right">
-							<div class="large">Vak 3</div>
-							<div class="text-muted">Vak 3 van de docent</div>
+							<div class="large">Klas 3</div>
+							<div class="text-muted">Klas IB 1</div>
 						</div>
 					</div>
 				</div>
@@ -61,13 +117,14 @@
 							<svg class="glyph stroked app-window-with-content"><use xlink:href="#stroked-app-window-with-content"></use></svg>
 						</div>
 						<div class="col-sm-9 col-lg-7 widget-right">
-							<div class="large">Vak 4</div>
-							<div class="text-muted">Vak 4 van de docent</div>
+							<div class="large">Klas 4</div>
+							<div class="text-muted">Klas IB 2</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div><!--/.row-->
+
 
 		<div class="row">
 			<div class="col-xs-6 col-md-3">
@@ -112,7 +169,7 @@
 			<div class="col-md-8">
 
 				<div class="panel panel-default chat">
-					<div class="panel-heading" id="accordion"><svg class="glyph stroked two-messages"><use xlink:href="#stroked-two-messages"></use></svg> Chat</div>
+					<div class="panel-heading" id="accordion"> Meldingen</div>
 					<div class="panel-body">
 						<ul>
 							<li class="left clearfix">
@@ -121,7 +178,7 @@
 								</span>
 								<div class="chat-body clearfix">
 									<div class="header">
-										<strong class="primary-font">John Doe</strong> <small class="text-muted">32 mins ago</small>
+										<strong class="primary-font">Leerling 1</strong> <small class="text-muted">32 mins ago</small>
 									</div>
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante turpis, rutrum ut ullamcorper sed, dapibus ac nunc. Vivamus luctus convallis mauris, eu gravida tortor aliquam ultricies.
@@ -134,7 +191,7 @@
 								</span>
 								<div class="chat-body clearfix">
 									<div class="header">
-										<strong class="pull-left primary-font">Jane Doe</strong> <small class="text-muted">6 mins ago</small>
+										<strong class="pull-left primary-font">Leerling 2</strong> <small class="text-muted">6 mins ago</small>
 									</div>
 									<p>
 										Mauris dignissim porta enim, sed commodo sem blandit non. Ut scelerisque sapien eu mauris faucibus ultrices. Nulla ac odio nisl. Proin est metus, interdum scelerisque quam eu, eleifend pretium nunc. Suspendisse finibus auctor lectus, eu interdum sapien.
@@ -147,7 +204,7 @@
 								</span>
 								<div class="chat-body clearfix">
 									<div class="header">
-										<strong class="primary-font">John Doe</strong> <small class="text-muted">32 mins ago</small>
+										<strong class="primary-font">Leerling 3</strong> <small class="text-muted">32 mins ago</small>
 									</div>
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante turpis, rutrum ut ullamcorper sed, dapibus ac nunc. Vivamus luctus convallis mauris, eu gravida tortor aliquam ultricies.

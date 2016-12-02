@@ -38,7 +38,7 @@
         <!-- Het formulier heeft nu een action naar index.html,
             Deze moet natuurlijk door de backend nog aangepast worden.
             -->
-        <form method="post" action="Admin%20panel/index.html">
+        <form method="post" action="Admin-panel/index.php">
             <h2 class="sr-only">Login Form</h2>
             <div class="illustration"><img src="assets/img/aventuslogo.png" style="max-height:155px;"></div>
             <div class="form-group">
