@@ -4,7 +4,7 @@ HTML en CSS design voor het logboek
 # Gebruik duidelijke comments voor de andere groepen.
 Wijzigingen bootstrap template.
 
-1. includes van Header, Footer en Menu
+1. includes van Header, Footer en Menu/ Done
 
 # De pagina's
 1. Home = Totaal overzicht van alle gegevens. selectie van vak voor meer details.
@@ -17,3 +17,4 @@ Wijzigingen bootstrap template.
 
 # Problemen en meldingen
 1. Tables include footer werkt niet.
+2. Niet elke include bestaat op elke pagina dit moet nog wel beter bekeken worden

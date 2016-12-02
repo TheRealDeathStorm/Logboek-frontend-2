@@ -1,6 +1,13 @@
 <?php include 'includes/header.php'; ?>
 <body>
 <?php include 'includes/menu.php'; ?>
+<div class="row">
+    <?php include 'includes/vakken.php'; ?>
+</div><!--/.row-->
+
+<div class="row">
+    <?php include 'includes/klassen.php'; ?>
+</div><!--/.row-->
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="panel panel-default">

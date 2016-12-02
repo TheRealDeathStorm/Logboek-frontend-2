@@ -4,10 +4,15 @@
 <div class="row">
     <div class="col-lg-12">
         <h1 class="page-header">Charts</h1>
-
     </div>
 </div><!--/.row-->
+<div class="row">
+    <?php include 'includes/vakken.php'; ?>
+</div><!--/.row-->
 
+<div class="row">
+    <?php include 'includes/klassen.php'; ?>
+</div><!--/.row-->
 <div class="row">
     <div class="col-lg-12">
         <div class="panel panel-default">
@@ -40,7 +45,7 @@
             <div class="panel-heading">Doughnut Chart</div>
             <div class="panel-body">
                 <div class="canvas-wrapper">
-                    <canvas class="chart" id="doughnut-chart" height="168" ></canvas>
+                    <canvas class="chart" id="doughnut-chart" ></canvas>
                 </div>
             </div>
         </div>
