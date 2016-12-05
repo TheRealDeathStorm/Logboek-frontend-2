@@ -3,7 +3,7 @@
 <?php include 'includes/menu.php'; ?>
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Alerts &amp; Panels</h1>
+				<h1 class="page-header">Meldingen en berichten</h1>
 			</div>
 		</div><!--/.row-->
 				

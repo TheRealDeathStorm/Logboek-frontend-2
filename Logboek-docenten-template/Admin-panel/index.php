@@ -1,7 +1,11 @@
 <?php include 'includes/header.php'; ?>
 <body>
 <?php include 'includes/menu.php'; ?>
-<!-- De vakken -->
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Home</h1>
+    </div>
+</div><!--/.row-->
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="panel panel-default">
@@ -16,6 +20,7 @@
 		</div><!--/.row-->
 
         <div class="row">
+            <!-- De vakken -->
             <?php include 'includes/vakken.php'; ?>
         </div><!--/.row-->
 

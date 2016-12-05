@@ -14,8 +14,13 @@ Wijzigingen bootstrap template.
 4. Tables = Totale specifieke weergave van ingevoerde logboeken, filter per vak en klas toevoegen.
 5. Forms = Pagina voor het aanmaken van nieuwe trajecten voor leerlingen.
 6. Alert page = Laatste ingeleverde items met memo's, eventuele berichten systeem of mail.
-7. Icons eruit. logout page verbeteren met logoutphp code.
 
 # Problemen en meldingen
 1. Tables include footer werkt niet.
 2. Niet elke include bestaat op elke pagina dit moet nog wel beter bekeken worden
+
+# Werkzaamheden verdeling
+1. Paul: Trajecten
+2. Gerrit: Logboeken
+3. Mike: Meldingen en berichten, grafieken.
+4. Niels: Vakken, home
