@@ -5,6 +5,7 @@ HTML en CSS design voor het logboek
 Wijzigingen bootstrap template.
 
 1. includes van Header, Footer en Menu/ Done
+2. Pagina titels aanpassen en verbeteren. (charts en forms voorbeeld).
 
 # De pagina's
 1. Home = Totaal overzicht van alle gegevens. selectie van vak voor meer details.
