@@ -21,17 +21,21 @@
 						<table data-toggle="table" data-url="tables/data1.json"  data-show-refresh="true" data-show-toggle="true" data-show-columns="true" data-search="true" data-select-item-name="toolbar1" data-pagination="true" data-sort-name="name" data-sort-order="desc">
 						    <thead>
 						    <tr>
-						        <th data-field="state" data-checkbox="true" >Item ID</th>
-						        <th data-field="id" data-sortable="true">Item ID</th>
-						        <th data-field="name"  data-sortable="true">Item Name</th>
-						        <th data-field="price" data-sortable="true">Item Price</th>
-						    </tr>
-						    </thead>
+                               <!--<th data-field="state" data-checkbox="true" >Leerling nr.</th>-->
+                                <th data-field="id" data-sortable="true">Leerling nummer</th>
+                                <th data-field="name"  data-sortable="true">Naam</th>
+                                <th data-field="price" data-sortable="true">Laatst ingeleverd</th>
+                                <th>
+                                        <button name="submit"><a href='leerling.php' target="_blank">Bekijken</a></button>
+                                        <!--Dit moet niet een button zijn. Elke row moet klikbaar zijn en naar de juiste leerling gaan in een venster net als op TP-->
+                                </th>
+                            </tr>
 						</table>
 					</div>
 				</div>
 			</div>
-		</div><!--/.row-->	
+		</div><!--/.row-->
+
 		<div class="row">
 			<div class="col-md-6">
 				<div class="panel panel-default">
