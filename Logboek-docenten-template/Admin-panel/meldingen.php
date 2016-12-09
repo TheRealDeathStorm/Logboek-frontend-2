@@ -24,7 +24,7 @@
 					</div>
                     <div class="panel-body">
                         <div class="dropdown">
-                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Kies uw les
                                 <span class="caret"></span></button>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Les 1</a></li>
@@ -46,7 +46,7 @@
 					</div>
                     <div class="panel-body">
                         <div class="dropdown">
-                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Kies uw les
                                 <span class="caret"></span></button>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Les 1</a></li>
@@ -68,7 +68,7 @@
 					</div>
                     <div class="panel-body">
                         <div class="dropdown">
-                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Kies uw les
                                 <span class="caret"></span></button>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Thema 1</a></li>

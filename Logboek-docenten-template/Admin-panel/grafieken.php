@@ -40,7 +40,7 @@
 </div><!--/.row-->
 
 <div class="row">
-        <div class="col-md-12"><!--Doughnut Chart-->
+        <div class="col-md-6"><!--Doughnut Chart-->
             <div class="panel panel-default">
                 <div class="panel-heading">Doughnut Chart</div>
                 <div class="panel-body">
