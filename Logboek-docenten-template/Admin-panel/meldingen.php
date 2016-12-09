@@ -22,7 +22,7 @@
 					<div class="panel-heading">
 						Java
 					</div>
-                    <div class="panel-heading">
+                    <div class="panel-body">
                         <div class="dropdown">
                             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
                                 <span class="caret"></span></button>
@@ -44,7 +44,7 @@
 					<div class="panel-heading">
 						Android
 					</div>
-                    <div class="panel-heading">
+                    <div class="panel-body">
                         <div class="dropdown">
                             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
                                 <span class="caret"></span></button>
@@ -66,7 +66,7 @@
 					<div class="panel-heading">
 						Burgerschap
 					</div>
-                    <div class="panel-heading">
+                    <div class="panel-body">
                         <div class="dropdown">
                             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
                                 <span class="caret"></span></button>
