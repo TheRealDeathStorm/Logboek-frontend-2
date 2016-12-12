@@ -26,7 +26,7 @@
                                 <th data-field="name"  data-sortable="true">Naam</th>
                                 <th data-field="price" data-sortable="true">Laatst ingeleverd</th>
                                 <th>
-                                        <button name="submit"><a href='leerling.php' target="_blank">Bekijken</a></button>
+                                        <button name="submit"><a href='leerling.php'>Bekijken</a></button>
                                         <!--Dit moet niet een button zijn. Elke row moet klikbaar zijn en naar de juiste leerling gaan in een venster net als op TP-->
                                 </th>
                             </tr>
