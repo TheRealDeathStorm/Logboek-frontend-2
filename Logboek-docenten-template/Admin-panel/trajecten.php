@@ -7,8 +7,18 @@
 			</div>
 		</div><!--/.row-->
 				
-		<input type="text" placeholder="klass" name="class"><br>
-		<input type="text" placeholder="klass" name="class"><br>
+		<select name="klas">
+			<option value="41B">41B</option>
+			<option value="42B">42B</option>
+			<option value="43B">43B</option>
+			<option value="41C">41C</option>
+		</select><br>
+		<select name="vak">
+			<option value="java">Java</option>
+			<option value="Android">Android</option>
+			<option value="UML">UML</option>
+			<option value="Engels">Engels</option>
+		</select><br>
 	
 		Begindatum: <input type="date"> Einddatum:<input type="date">
 	
