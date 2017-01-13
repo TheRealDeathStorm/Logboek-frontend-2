@@ -35,6 +35,7 @@
         <li><a href="trajecten.php"><svg class="glyph stroked pencil"><use xlink:href="#stroked-pencil"></use></svg> Trajecten</a></li>
         <li><a href="meldingen.php"><svg class="glyph stroked app-window"><use xlink:href="#stroked-app-window"></use></svg> Meldingen &amp; berichten</a></li>
         <li role="presentation" class="divider"></li>
+        <li><a href="RegistratiePagina.php"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> Gebruikers toevoegen </a></li>
         <li><a href="logout.php"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> Uitloggen</a></li>
     </ul>
 
