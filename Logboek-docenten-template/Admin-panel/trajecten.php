@@ -7,7 +7,11 @@
 			</div>
 		</div><!--/.row-->
 				
-		
+		<input type="text" placeholder="klass" name="class"><br>
+		<input type="text" placeholder="klass" name="class"><br>
+	
+		Begindatum: <input type="date"> Einddatum:<input type="date">
+	
 		<div class="row">
 			<div class="col-lg-12">
                 <div class="content">
