@@ -38,9 +38,9 @@
 		<div class="row">
 			<div class="col-lg-12">
                 <div class="content">
-                    <div class="build-wrap"></div>
-                    <div class="render-wrap"></div>
-                    <button id="edit-form">Edit Form</button>
+    			<div class="build-wrap"></div>
+    			<div class="render-wrap"></div>
+    			<button id="edit-form">Edit Form</button>
                 </div>
                 <script src="js/trajecten/jquery.min.js"></script>
                 <script src="js/trajecten/form-builder.min.js"></script>
