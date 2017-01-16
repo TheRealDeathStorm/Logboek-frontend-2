@@ -132,18 +132,20 @@
                  Kalender voor de docenten
                  Docenten kunnen hierin deadlines zien die zijn ingevoerd van trajecten als dit mogelijk is.
                 -->
-				<div class="panel panel-red">
-					<div class="panel-heading dark-overlay"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg>Calendar</div>
-					<div class="panel-body">
-						<div id="calendar">
 
-                        </div>
-					</div>
-				</div>
                 <?php include "Includes/to-do.php"; ?>
 								
 			</div><!--/.col-->
 		</div><!--/.row-->
+        <div class="row">
+            <div class="panel panel-red">
+                <div class="panel-body">
+                    <div id='calendar'>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 <?php include 'includes/footer.php'; ?>
 </body>
 

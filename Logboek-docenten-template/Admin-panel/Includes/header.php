@@ -17,6 +17,11 @@
     <link href="css/datepicker3.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 
+    <link rel='stylesheet' href='fullcalendar-3.1.0/fullcalendar.css' />
+    <script src='fullcalendar-3.1.0/lib/jquery.min.js'></script>
+    <script src='fullcalendar-3.1.0/lib/moment.min.js'></script>
+    <script src='fullcalendar-3.1.0/fullcalendar.js'></script>
+
     <!--Icons-->
     <script src="js/lumino.glyphs.js"></script>
 
@@ -30,5 +35,26 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/trajecten/form-builder.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/trajecten/form-render.min.css">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <script>
+        $(document).ready(function() {
+
+            // page is now ready, initialize the calendar...
+
+            $('#calendar').fullCalendar({
+                // put your options and callbacks here
+            })
+
+        });
+        $('#calendar').fullCalendar({
+            weekends: false // will hide Saturdays and Sundays
+        });
+        $('#calendar').fullCalendar({
+            dayClick: function() {
+                alert('a day has been clicked!');
+            }
+        });
+        $('#calendar').fullCalendar('next');
+    </script>
 
 </head>
