@@ -1,6 +1,10 @@
 <?php include 'includes/header.php'; ?>
 <body>
 <?php include 'includes/menu.php'; ?>
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/trajecten/demo.css">
+  	<link rel="stylesheet" type="text/css" media="screen" href="assets/css/trajecten/form-builder.min.css">
+  	<link rel="stylesheet" type="text/css" media="screen" href="assets/css/trajecten/form-render.min.css">
 		<div class="row">
 			<div class="col-lg-12">
 				<h1 class="page-header">Trajecten</h1>
