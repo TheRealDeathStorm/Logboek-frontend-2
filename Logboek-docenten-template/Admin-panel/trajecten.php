@@ -6,21 +6,34 @@
 				<h1 class="page-header">Trajecten</h1>
 			</div>
 		</div><!--/.row-->
-				
-		<select name="klas">
-			<option value="41B">41B</option>
-			<option value="42B">42B</option>
-			<option value="43B">43B</option>
-			<option value="41C">41C</option>
-		</select><br>
-		<select name="vak">
-			<option value="java">Java</option>
-			<option value="Android">Android</option>
-			<option value="UML">UML</option>
-			<option value="Engels">Engels</option>
-		</select><br>
-	
-		Begindatum: <input type="date"> Einddatum:<input type="date">
+        <div class="row">
+            <div class="col-md-2">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Kies uw vak
+                    <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="col-md-2">
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                        Kies uw klas
+                        <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<br>
+		Begindatum: <input type="date">
+        Einddatum:<input type="date">
 	
 		<div class="row">
 			<div class="col-lg-12">
