@@ -13,7 +13,7 @@
                     <svg class="glyph stroked bag"><use xlink:href="#stroked-bag"></use></svg>
                 </div>
                 <div class="col-sm-9 col-lg-7 widget-right">
-                    <div class="large">Java</div>
+                    <div class="large"><a href="overzichtVak.php">Java</a></div>
                     <div class="text-muted">Java logboeken</div>
                 </div>
             </div>
@@ -26,8 +26,8 @@
                     <svg class="glyph stroked empty-message"><use xlink:href="#stroked-empty-message"></use></svg>
                 </div>
                 <div class="col-sm-9 col-lg-7 widget-right">
-                    <div class="large">Vak 2</div>
-                    <div class="text-muted">Vak 2, van de docent</div>
+                    <div class="large"><a href="overzichtVak.php" style="color: #7a5fa6;">Vak 2</a></div>
+                    <div class="text-muted">Vak 2 logboeken</div>
                 </div>
             </div>
         </div>
@@ -39,8 +39,8 @@
                     <svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg>
                 </div>
                 <div class="col-sm-9 col-lg-7 widget-right">
-                    <div class="large">Vak 3</div>
-                    <div class="text-muted">Vak 3 van de docent</div>
+                    <div class="large"><a href="overzichtVak.php" style="color: #CDCC02;">Vak 3</a></div>
+                    <div class="text-muted">Vak 3 logboeken</div>
                 </div>
             </div>
         </div>
@@ -52,8 +52,8 @@
                     <svg class="glyph stroked app-window-with-content"><use xlink:href="#stroked-app-window-with-content"></use></svg>
                 </div>
                 <div class="col-sm-9 col-lg-7 widget-right">
-                    <div class="large">Vak 4</div>
-                    <div class="text-muted">Vak 4 van de docent</div>
+                    <div class="large"><a href="overzichtVak.php" style="color: #3B3B3C;">Vak 4</a></div>
+                    <div class="text-muted">Vak 4 logboeken</div>
                 </div>
             </div>
         </div>
