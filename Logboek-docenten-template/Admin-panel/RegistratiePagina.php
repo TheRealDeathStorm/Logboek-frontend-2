@@ -68,7 +68,23 @@
 <!--                    alert("Fout, Bestand is geen .CSV bestand.");-->
 <!--                }</script>-->
 
-            </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <!-- Data utl is een JSON. deze aanpassen met de foreach van het csv bestand. -->
+                                <table data-toggle="table" data-url="tables/data1.json" data-select-item-name="toolbar1" data-pagination="true" data-sort-name="name" data-sort-order="desc">
+                                    <thead>
+                                    <tr>
+                                        <th data-field="name" data-sortable="true">Naam <!-- Klas --></th>
+                                        <th data-field="number"  data-sortable="true">Email <!-- Leerjaar klas --></th>
+                                        <th data-field="name" data-sortable="true">Klas <!-- Opleiding --></th>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.row-->
             <div class="form-group">
                 <button class="btn btn-primary btn-block" type="submit">Verzend</button>
             </div>
@@ -77,6 +93,7 @@
     </div>
     <script src="RegistratiePagina_files/jquery.min.js.download"></script>
     <script src="RegistratiePagina_files/bootstrap.min.js.download"></script>
+    <script src="js/bootstrap-table.js"></script>
     <?php
         include 'Includes/footer.php';
     ?>
